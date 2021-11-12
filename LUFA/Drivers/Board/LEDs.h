@@ -211,6 +211,9 @@
 			#include "AVR8/POLOLUMICRO/LEDs.h"
 		#elif (BOARD == BOARD_XPLAINED_MINI)
 			#include "AVR8/XPLAINED_MINI/LEDs.h"
+		#elif (BOARD == BOARD_POS_SENSOR)
+			#include "AVR8/POS_SENSOR/LEDs.h"
+
 		#else
 			#include "Board/LEDs.h"
 		#endif

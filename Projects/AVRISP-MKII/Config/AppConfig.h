@@ -43,14 +43,10 @@
 #ifndef _APP_CONFIG_H_
 #define _APP_CONFIG_H_
 
-	#define AUX_LINE_PORT              PORTB
-	#define AUX_LINE_PIN               PINB
-	#define AUX_LINE_DDR               DDRB
-	#if (BOARD == BOARD_U2S)
-		#define AUX_LINE_MASK          (1 << 0)
-	#else
-		#define AUX_LINE_MASK          (1 << 4)
-	#endif
+	#define AUX_LINE_PORT              PORTF
+	#define AUX_LINE_PIN               PINF
+	#define AUX_LINE_DDR               DDRF
+	#define AUX_LINE_MASK		       (1 << 4)
 
 	#define ENABLE_ISP_PROTOCOL
 	#define ENABLE_XPROG_PROTOCOL
